@@ -2,7 +2,8 @@
 @import url("fontawesome-all.min.css");
 
 /*
-	Helios by HTML5 UP
+	Chunhui Zhu's Portfolio
+	Using Helios template by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
@@ -143,7 +144,8 @@ input, select, textarea {
 	}
 
 	h3 {
-		font-size: 2.25em;
+		font-size: 2em;
+		font-family: 'Source Sans Pro', sans-serif;
 	}
 
 	h4 {
@@ -152,7 +154,7 @@ input, select, textarea {
 	}
 
 	strong, b {
-		font-weight: 400;
+		font-weight: 600;
 		color: #483949;
 	}
 
@@ -1922,7 +1924,7 @@ input, select, textarea {
 
 	ul.icons {
 		position: relative;
-		background: rgba(128, 128, 128, 0.05);
+		background: rgba(128, 128, 128, 0.1);
 		border-radius: 4em;
 		display: inline-block;
 		padding: 0.35em 0.75em 0.35em 0.75em;
@@ -2178,7 +2180,7 @@ input, select, textarea {
 
 	.wrapper {
 		background: #fff;
-		margin: 0 0 2em 0;
+		margin: 0 0 0 0;
 		padding: 6em 0 6em 0;
 	}
 
@@ -2476,7 +2478,7 @@ input, select, textarea {
 		position: relative;
 		overflow: hidden;
 		padding: 6em 0 6em 0;
-		background: #2b252c;
+		background: #0E3E4A;
 		color: #fff;
 	}
 
@@ -3184,7 +3186,7 @@ input, select, textarea {
 	}
 
 	.section_row {
-		margin-bottom: 24px;
+		margin-bottom: 70px;
 	}
 
 	.section_columns {
@@ -3249,6 +3251,14 @@ input, select, textarea {
 		letter-spacing: 0.2px;
 	}
 
+	.centered_section {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	}
+
 	.image-with-caption {
 	width: 100%;
 	display: flex;
@@ -3278,7 +3288,11 @@ input, select, textarea {
 
 	.img-card {
 		width: 100%;
-		border-radius: 25px;
+		border-radius: 10px;
+	}
+
+	.vid-card{
+		width:100%;
 	}
 
 	.section_title_orange{
@@ -3291,6 +3305,7 @@ input, select, textarea {
 		letter-spacing: 0.2px;
 		line-height: 1.25em;
 		margin:0;
+		text-align: left;
 	}
 
 	.mg_lg {
@@ -3305,4 +3320,14 @@ input, select, textarea {
 		font-style: normal;
 		line-height: 1.75em; /* 193.333% */
 		letter-spacing: 0.2px; 	
+		margin:0;
+	}
+
+	.within_section_margin{
+		margin:0;
+		margin-bottom: 24px;
+	}
+
+	.section_46_margin{
+		margin-bottom:46px;
 	}
