@@ -3251,6 +3251,18 @@ input, select, textarea {
 		letter-spacing: 0.2px;
 	}
 
+		.resume_title{
+		margin:0;
+		margin-bottom: 16px;
+		color: #000;
+		font-feature-settings: 'clig' off, 'liga' off;
+		font-family: 'Source Sans Pro', sans-serif;
+		font-size: 1.25em;
+		font-style: normal;
+		font-weight:400;
+		letter-spacing: 0.2px;
+	}
+
 	.centered_section {
 	width: 100%;
 	display: flex;
@@ -3289,6 +3301,14 @@ input, select, textarea {
 	.img-card {
 		width: 100%;
 		border-radius: 10px;
+	}
+
+		.img-card-small {
+		width: 35%;
+		border-radius: 10px;
+	    margin-left: auto;
+	    margin-right: auto;
+	    display: block; 
 	}
 
 	.vid-card{
@@ -3331,3 +3351,5 @@ input, select, textarea {
 	.section_46_margin{
 		margin-bottom:46px;
 	}
+
+
